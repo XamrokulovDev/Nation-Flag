@@ -8,12 +8,12 @@ fetch(url)
  
 function nationFlag(flags) {
   flags.forEach(flag => {
-    // const countryName = flag.name.common;
-    // const flagUrl = flag.flags.svg;
-    // const card =`
-    //   <h1>${countryName}</h1>
-    //   <img src="${flagUrl}">
-    // `;
-    // document.body.innerHTML += card;
+    const countryName = flag.name.common;
+    const flagUrl = flag.flags.svg;
+    const card =`
+      <h1>${countryName}</h1>
+      <img src="${flagUrl}">
+    `;
+    document.body.innerHTML += card;
   });
 }
